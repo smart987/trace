@@ -1,0 +1,21 @@
+{
+    "traceApp": {
+        "driver" : {
+            "home": {
+                "title": "Drivers",
+                "createLabel": "Créer un nouveau Driver",
+                "createOrEditLabel": "Créer ou éditer un Driver"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Driver {{ id }} ?"
+            },
+            "detail": {
+                "title": "Driver"
+            },
+            "name": "Name",
+            "gender": "Gender",
+            "bike": "Bike"
+        }
+    }
+}
+

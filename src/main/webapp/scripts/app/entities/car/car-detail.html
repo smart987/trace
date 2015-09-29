@@ -1,0 +1,46 @@
+
+<div>
+    <h2><span translate="traceApp.car.detail.title">Car</span> {{car.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="traceApp.car.type">Type</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{car.type}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="traceApp.car.seats">Seats</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{car.seats}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="traceApp.car.owner">owner</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="owner.detail({id:car.owner.id})">{{car.owner.id}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

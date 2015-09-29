@@ -1,0 +1,27 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "driver",
+            "otherEntityName": "driver",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "type",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "modelno",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20150929035719",
+    "dto": "no",
+    "pagination": "no"
+}

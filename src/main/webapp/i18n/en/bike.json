@@ -1,0 +1,23 @@
+{
+    "traceApp": {
+        "bike" : {
+            "home": {
+                "title": "Bikes",
+                "createLabel": "Create a new Bike",
+                "createOrEditLabel": "Create or edit a Bike"
+            },
+            "created": "A new Bike is created with identifier {{ param }}",
+            "updated": "A Bike is updated with identifier {{ param }}",
+            "deleted": "A Bike is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Bike {{ id }}?"
+            },
+            "detail": {
+                "title": "Bike"
+            },
+            "type": "Type",
+            "modelno": "Modelno",
+            "driver": "Driver"
+        }
+    }
+}

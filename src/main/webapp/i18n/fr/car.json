@@ -1,0 +1,21 @@
+{
+    "traceApp": {
+        "car" : {
+            "home": {
+                "title": "Cars",
+                "createLabel": "Créer un nouveau Car",
+                "createOrEditLabel": "Créer ou éditer un Car"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Car {{ id }} ?"
+            },
+            "detail": {
+                "title": "Car"
+            },
+            "type": "Type",
+            "seats": "Seats",
+            "owner": "Owner"
+        }
+    }
+}
+

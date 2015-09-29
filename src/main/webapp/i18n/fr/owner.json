@@ -1,0 +1,21 @@
+{
+    "traceApp": {
+        "owner" : {
+            "home": {
+                "title": "Owners",
+                "createLabel": "Créer un nouveau Owner",
+                "createOrEditLabel": "Créer ou éditer un Owner"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Owner {{ id }} ?"
+            },
+            "detail": {
+                "title": "Owner"
+            },
+            "name": "Name",
+            "age": "Age",
+            "car": "Car"
+        }
+    }
+}
+

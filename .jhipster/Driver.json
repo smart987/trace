@@ -1,0 +1,27 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "bike",
+            "otherEntityName": "bike",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "driver"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "gender",
+            "fieldType": "Boolean"
+        }
+    ],
+    "changelogDate": "20150929035505",
+    "dto": "no",
+    "pagination": "pagination"
+}
